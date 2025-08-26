@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #000000;
+  color: #f5f5f5;
+}
+
+header {
+  background: rgba(168, 4, 17, 0.8);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(237, 233, 233);
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1600891963933-960e6b93f2f8') no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f8f4f4;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.menu {
+  padding: 40px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 8px;
+}
+
+.menu h2 {
+  margin-bottom: 20px;
+  color: #a80411;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.item {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.item h3 {
+  margin: 10px 0;
+}
+
+.order {
+  padding: 40px;
+  text-align: center;
+  background: rgba(238, 232, 232, 0.872);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 10px;
+}
+
+.order h2 {
+  margin-bottom: 20px;
+  color: #a80411;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input, form select, form button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #a80411;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: #a80411;
+}
+
+footer {
+  background: rgba(47, 53, 66, 0.7);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 6px;
+}

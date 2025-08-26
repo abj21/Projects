@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Order Website</title>
+  <link rel="stylesheet" href="food_style.css">
+</head>
+<body>
+  <header>
+    <h1>Delicious Bites</h1>
+    <nav>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#order">Order</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    Welcome to Burger Buddy 🍔
+  </section>
+
+  <section class="menu" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="item">
+        <img src="Screenshot 2025-08-26 at 10.04.48.png" alt="Burger">
+        <h3>Burger</h3>
+        <p>₹120</p>
+      </div>
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1546069901-eacef0df6022" alt="Pizza">
+        <h3>Pizza</h3>
+        <p>₹250</p>
+      </div>
+      <div class="item">
+        <img src="Screenshot 2025-08-26 at 10.06.14.png" alt="Pasta">
+        <h3>Pasta</h3>
+        <p>₹180</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="order" id="order">
+    <h2>Place Your Order</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="text" placeholder="Phone Number" required>
+      <select required>
+        <option value="">Select Food Item</option>
+        <option value="burger">Burger</option>
+        <option value="pizza">Pizza</option>
+        <option value="pasta">Pasta</option>
+      </select>
+      <input type="number" placeholder="Quantity" required>
+      <button type="submit">Order Now</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Burger Buddy 🍔 | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
