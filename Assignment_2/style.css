@@ -1,13 +1,11 @@
-
 body {
   margin: 0;
   padding: 0;
   background: url(pexels-merlin-11167645.jpg);
   background-size: cover;
-
 }
 
-
+/* Navbar */
 .navbar {  
   backdrop-filter: blur(10px); 
   color: rgb(0, 0, 0);  
@@ -15,31 +13,60 @@ body {
   margin: 6px;        
 }
 
-
 .navbar a {
   color: white;  
   text-decoration: double;  
-   border-radius: 60px;             
+  border-radius: 60px;             
   margin: 13px 20px; 
-  padding-top:3px  ;         
+  padding-top: 3px;         
   display: inline-block;        
 }
 
 .navbar a:hover {
   background-color: black;       
 }
-.search{
+
+.search {
   float: right;
   font-style: italic;
   color: rgb(0, 0, 0);
   padding: 12px 70px;
-
 }
-.navbar input{
+
+.navbar input {
   border: 2px solid black;
   align-items: center;
   font: 1em sans-serif;
   border-radius: 14px;
-  padding:3px 17px;
+  padding: 3px 17px;
   width: 129px;
+}
+
+/* Traffic Light */
+.traffic-light {
+  width: 100px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 20px;
+  margin: 60px auto;
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+
+.light {
+  width: 60px;
+  height: 60px;
+  margin: 15px auto;
+  border-radius: 50%;
+}
+
+.red {
+  background: red;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.green {
+  background: green;
 }
